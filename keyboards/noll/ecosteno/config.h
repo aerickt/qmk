@@ -18,20 +18,19 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED // recommended by QMK
-#define PRODUCT_ID      0x3622 
+#define PRODUCT_ID      0x3621 
 #define DEVICE_VER      0x0100
 #define MANUFACTURER    Noll Electronics LLC
-#define PRODUCT         Nolltronics Multisteno
-
-#define STENO_REPEAT
-//#define STENO_1UP
+#define PRODUCT         EcoSteno
 
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
-#define MATRIX_COL_PINS { B15, B14, B13, B12, B1, B0, B9, B6, B5, B4, B3, A15 }
-#define MATRIX_ROW_PINS { B8, B7, A7, A6 }
+//#define MATRIX_COL_PINS { B15, B14, B13, B12, B11, B10, B9, B8, B7, B6, B5, B4 } // old 0.12
+#define MATRIX_COL_PINS { B15, B14, B13, B12, B1, B0, B9, B8, B7, B6, B5, B4 } // gd
+//#define MATRIX_ROW_PINS { A15, B3, B1, B0 } // old 0.12
+#define MATRIX_ROW_PINS { A15, B3, A7, A6 } // current 0.16
 #define DIODE_DIRECTION COL2ROW
 
 /* Set 0 if debouncing isn't needed */
@@ -47,3 +46,7 @@
 #define TAPPING_TERM 137
 #define COMBO_TERM 35
 #define FORCE_NKRO
+
+#define STENO_REPEAT
+//#define STENO_1UP
+
