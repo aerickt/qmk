@@ -7,7 +7,7 @@ The Multisteno's configuration is here: https://github.com/aerickt/qmk/blob/357a
 By default double tap chord repeat is enabled, but 1-up is commented out; simply uncomment those lines to enable.
 
 Note that the Ecosteno firmware has only been tested to work on the older version with *blue* switches. There is a slight change in firmware between the pink and the blue version. The configuration between the two is here:
-https://github.com/aerickt/qmk/blob/josh-extras/keyboards/noll/ecosteno/config.h#L31-L41
+https://github.com/aerickt/qmk/blob/47e9e766f7f820d95a6b7faba3ce3e021eb0aa35/keyboards/noll/ecosteno/config.h#L31-L41
 
 Although this firmware hasn't been tested on the Ecosteno with pink switches, it *should*, in theory, work.
 
