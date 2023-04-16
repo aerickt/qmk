@@ -11,6 +11,12 @@ https://github.com/aerickt/qmk/blob/47e9e766f7f820d95a6b7faba3ce3e021eb0aa35/key
 
 Although this firmware hasn't been tested on the Ecosteno with pink switches, it *should*, in theory, work.
 
+# Gemini PR by default
+
+If you are just a hobbyist using Plover, you should not be using TX Bolt; Gemini PR is simply the better option if you had the choice.
+
+TX Bolt is not supported due to limitations of this older QMK fork. If you need TX Bolt (e.g. for use with Case CATalyst) I'd suggest flashing the precompiled firmware provided by nolltronics ([Ecosteno link](https://github.com/nkotech/EcoSteno-Firmware/tree/main/keyboards/noll) and [Multisteno link](https://github.com/nkotech/Multisteno-Firmware/tree/main/keyboards/noll)). These unfortunately do not support any of the firmware mods such as 1-up or chord repeat.
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
