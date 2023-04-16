@@ -1,3 +1,16 @@
+# 1-up and chord repeat:
+
+The Ecosteno's configuration can be found here: https://github.com/aerickt/qmk/blob/357a7a942a65f604050a3aefab2e14f21d9cbbc4/keyboards/noll/ecosteno/config.h#L50-L51
+
+The Multisteno's configuration is here: https://github.com/aerickt/qmk/blob/357a7a942a65f604050a3aefab2e14f21d9cbbc4/keyboards/noll/multisteno/config.h#L26-L27
+
+By default double tap chord repeat is enabled, but 1-up is commented out; simply uncomment those lines to enable.
+
+Note that the Ecosteno firmware has only been tested to work on the older version with *blue* switches. There is a slight change in firmware between the pink and the blue version. The configuration between the two is here:
+https://github.com/aerickt/qmk/blob/josh-extras/keyboards/noll/ecosteno/config.h#L31-L41
+
+Although this firmware hasn't been tested on the Ecosteno with pink switches, it *should*, in theory, work.
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
